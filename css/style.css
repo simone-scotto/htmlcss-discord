@@ -7,6 +7,13 @@
 
 /*utilis*/
 
+button {
+    border: 1px solid transparent;
+    border-radius: 29px;
+    padding: 10px;
+    font-size: 12px;
+}
+
 /** debug */
 .debug .nav > span,
 .debug .container > *,
@@ -25,59 +32,92 @@
 
 /*header*/
 header {
-    background-color: #74ADD2;
     padding-top: 10px;
-    padding-bottom: 3px;
+    background-color: #265EE8;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
-    background-color: #DAA520;
+    background-color: #265EE8;
     width: 60%;
     margin: 0 auto;
     margin-bottom: 10px;
+
 }
 
 .side-navbar {
-    border: 1px dashed black;
-    width: 25%;
+    
     padding: 5px;
     
   }
   
   .left {
     text-align: left;
+    height: 30px;
   }
   
   .right {
-    text-align: right;
+    text-align: center;
+    background-color: white;
+    width: 70px;
+    padding: 5px;
+    border-radius: 17px;
+    height: 30px;
   }
   .central-navbar {
     border: 1px dashed black;
     width: 50%;
     text-align: center;
     padding: 5px;
+    color: white;
   }
 
 .blu-bg {
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position-y: top;
     padding: 20px;
+    background-repeat: no-repeat;
+    min-height: 410px;
 }
 
 .banner {
-    background-color: pink;
     min-height: 250px;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 35px;
+    margin-top: 40px;
 
 }
 
+.white-tx {
+    color: white;
+}
+
+.black-tx {
+    color: black;
+}
+
+.mac {
+    background-color: white;
+}
+
+.discord {
+    background-color: black;
+}
 /* first section*/
 
 .white-bg {
     background-color: white;
     padding: 20px 0px;
-    
+}
+
+h1 {
+    font-size: 40px;
 
 }
 
@@ -179,7 +219,4 @@ footer {
     align-items: center;
 
 }
- button {
-    border: 1px dashed black;
-    padding: 5px;
- }
+
