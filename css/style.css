@@ -10,13 +10,16 @@
 button {
     border: 1px solid transparent;
     border-radius: 29px;
-    padding: 10px;
-    font-size: 12px;
+    padding: 10px 15px;
+    font-size: 15px;
 }
 
+section {
+    padding: 80px 0px;
+}
 
 .container {
-    
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -32,7 +35,6 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #265EE8;
-    width: 60%;
     margin: 0 auto;
     margin-bottom: 10px;
 
@@ -74,7 +76,7 @@ header {
     background-position-y: top;
     padding: 20px;
     background-repeat: no-repeat;
-    min-height: 410px;
+    min-height: 500px;
 }
 
 .banner {
@@ -85,12 +87,13 @@ header {
     align-items: center;
     text-align: center;
     gap: 35px;
-    margin-top: 40px;
+    margin-top: 60px;
 
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
+    margin-bottom: 20px;
 
 }
 
@@ -99,12 +102,25 @@ h1 {
     color: white;
 }
 
+.banner > p {
+    font-size: 18px;
+}
+
+.banner > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+   
+}
+
 .black-tx {
     color: black;
 }
 
 .mac {
     background-color: white;
+    
 }
 
 .discord {
@@ -112,16 +128,13 @@ h1 {
 }
 /* first section*/
 
-.white-bg {
-    background-color: white;
-    padding: 20px 0px;
-}
 
 
 .flex {
     display: flex;
-    width: 70%;
+    
     gap: 50px;
+    min-height: 400px;
 
 }
 
@@ -159,11 +172,10 @@ h1 {
 
 /*second section*/
 
-
 .grey-bg {
-    background-color: grey;
-    padding: 20px 0px;
+    background-color: lightgrey;
 }
+
 
 
 
@@ -178,28 +190,47 @@ h1 {
 
 .big-green {
     
-    min-height: 600px;
+    min-height: 700px;
     width: 100%;
-    background-color: green;
+    border: 1px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
    
 }
 
-.big-green > p {
+.big-green > p, div {
     border: 1px dashed black;
     text-align: center;
+    width: 80%;
+
     
 }
 
 .call {
     background-image: url(../img/item4-big.svg);
     width: 100%;
-    height: 450px;
-    background-size: 105%;
+    height: 545px;
+    background-size: 107%;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.adventure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    font-size: 25px;
+    width: 39%;
+    height: 10%;
+    background-size: 100%;
+}
+
+.opacity {
+    background-color: green;
+    opacity: 20%;
 }
 /* vertical section*/
 
@@ -209,6 +240,12 @@ h1 {
     padding-bottom: 20px;
 
 }
+
+.black-bg > * {
+    border: 1px solid white;
+}
+
+
 
 .vertical-red {
     background-color: red;
@@ -237,9 +274,6 @@ footer {
 
 .foot {
     min-height: 50px;
-    background-color: aquamarine;
-    width: 100%;
-    width: 60%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
