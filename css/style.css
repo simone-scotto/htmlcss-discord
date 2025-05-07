@@ -1,0 +1,185 @@
+/*cssreset*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+/*utilis*/
+
+/** debug */
+.debug .nav > span,
+.debug .container > *,
+.debug .banner
+ {
+    border: 2px dashed black;
+}
+.debug .vertical-green{
+    border: 1px dashed white;
+}
+.container {
+    
+    margin: 0 auto;
+}
+
+
+/*header*/
+header {
+    background-color: #74ADD2;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #DAA520;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.side-navbar {
+    border: 1px dashed black;
+    width: 25%;
+    padding: 5px;
+    
+  }
+  
+  .left {
+    text-align: left;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  .central-navbar {
+    border: 1px dashed black;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+  }
+
+.blu-bg {
+    background-color: blue;
+    padding: 20px;
+}
+
+.banner {
+    background-color: pink;
+    min-height: 250px;
+    width: 50%;
+
+}
+
+/* first section*/
+
+.white-bg {
+    background-color: white;
+    padding: 20px 0px;
+    
+
+}
+
+.flex {
+    display: flex;
+    width: 60%;
+
+}
+
+.main-blu {
+    background-color: blue;
+    width: 60%;
+    min-height: 100px;
+
+}
+
+.pink {
+    background-color: pink;
+    width: 40%;
+    min-height: 300px;
+    
+}
+
+
+
+/*second section*/
+
+
+.grey-bg {
+    background-color: grey;
+    padding: 20px 0px;
+}
+
+.blu {
+    background-color: blue;
+    width: 40%;
+    min-height: 100px;
+
+}
+
+.main-pink {
+    background-color: pink;
+    width: 60%;
+    min-height: 300px;
+    
+}
+
+
+/*green section*/
+
+.big-green {
+    background-color: green;
+    min-height: 600px;
+    width: 100%;
+}
+
+/* vertical section*/
+
+.black-bg {
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 20px;
+
+}
+
+.vertical-red {
+    background-color: red;
+    min-height: 400px;
+    width: 30%;
+}
+
+.white-border {
+    border: 1px dashed white;
+    
+}
+
+.vertical-green{
+    background-color: green;
+    min-height: 400px;
+    width: 20%;
+    
+}
+
+footer {
+    background-color: darkgray;
+    padding-top: 10px;
+
+
+}
+
+.foot {
+    min-height: 50px;
+    background-color: aquamarine;
+    width: 100%;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ button {
+    border: 1px dashed black;
+    padding: 5px;
+ }
